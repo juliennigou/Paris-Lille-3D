@@ -1,0 +1,37 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+
+# Logs / temp
+*.log
+*.tmp
+*.swp
+
+# Large raw point-cloud data
+training/*.ply
+test/*.ply
+*.las
+*.laz
+
+# Large model artifacts
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated predictions / visualization artifacts
+submission*.txt
+colored_*.ply
