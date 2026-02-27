@@ -2,8 +2,8 @@ import numpy as np
 from plyfile import PlyData, PlyElement
 
 TEST_PLY = "test/MiniDijon9.ply"       # ou ton .ply train/test
-SUBMISSION_TXT = "submission.txt"      # labels 1..6, 1 ligne par point
-OUT_PLY = "colored_pro_segmentation.ply"
+SUBMISSION_TXT = "submission_randlanet.txt"      # labels 1..6, 1 ligne par point
+OUT_PLY = "colored_pro_segmentation_dl.ply"
 
 # Palette "pro segmentation" (lisible sur fond noir/gris dans CloudCompare)
 # 1 ground, 2 buildings, 3 poles, 4 pedestrians, 5 cars, 6 vegetation
