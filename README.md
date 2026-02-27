@@ -80,10 +80,11 @@ License:
 
 ## Repository Structure
 
-- `main.py`: initial XGBoost baseline pipeline
+- `xgboost.py`: initial XGBoost baseline pipeline
 - `train_best.py`: improved full-data XGBoost ensemble pipeline
 - `randlanet_pipeline.ipynb`: RandLA-Net style deep learning pipeline (train + predict)
-- colorization utility script in project root for predicted-label visualization
+- `colorize_ply_from_submission.py`: utility to colorize predicted labels for visualization
+- `README.txt`: original benchmark mini-challenge notes
 - `training/`, `test/`: benchmark point clouds
 - `images/`: README visuals and qualitative outputs
 
